@@ -7,6 +7,32 @@
 body {
    font-family: Ubuntu;
    font-size: 1.25rem;
-   line-height: 1.3rem;
+   line-height: 1.4;
    color: #707070;
+}
+
+/* navigation and header */
+
+header {
+    background: #F8F8F8;
+    padding: 2rem 5rem;
+}
+
+.title {
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #143774;
+}
+
+.subtitle {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: #1792D2;
+    font-weight: bold;
+}
+
+.primary-navigation ul {
+    list-style: none;
+    text-decoration: none;
 }
